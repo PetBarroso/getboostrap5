@@ -13,6 +13,10 @@
         margin-top: 10px;
         margin-bottom: 10px;
       }
+      .dark {
+        background: #000;
+        color: #fff;
+      }
     </style>
 
     <title>Bootstrap 5</title>
@@ -41,12 +45,50 @@
           <div class="col-3 exemplo-cor text-center">coluna4</div>
         </div>
         <div class="row">
-          <div class="col-4 exemplo-cor text-center">coluna1</div>
-          <div class="col-4 exemplo-cor text-center">coluna2</div>
-          <div class="col-4 exemplo-cor text-center">coluna3</div>
+          <div class="col-12 col-sm-4 dark exemplo-cor text-center">
+            coluna1
+          </div>
+          <div class="col-6 col-sm-4 dark exemplo-cor text-center">coluna2</div>
+          <div class="col-6 col-sm-4 dark exemplo-cor text-center">coluna3</div>
         </div>
+        <!--Alinhamento de linha vertical-->
+        <div
+          class="row align-itens-center"
+          style="min-height: 250px; border: solid red"
+        >
+          <div class="col-4 dark text-center">Alinhamento de linha</div>
+          <div class="col-4 dark text-center">
+            Alinhamento de linha <br />
+            Alinhamento de linha <br />
+            Alinhamento de linha
+          </div>
+          <div class="col-4 dark text-center">Alinhamento de linha</div>
+        </div>
+        <!--Alinhamento de linha vertical-->
+        <!--Alinhamento individual de coluna-->
+        <div class="row" style="min-height: 250px; border: solid blue">
+          <div class="col-4 align-self-start exemplo-cor text-center">
+            Alinhamento individual
+          </div>
+          <div class="col-4 align-self-center exemplo-cor text-center">
+            Alinhamento individual
+          </div>
+          <div class="col-4 align-self-end exemplo-cor text-center">
+            Alinhamento individual
+          </div>
+        </div>
+        <!--Alinhamento individual de coluna-->
+        <!--Alinhamento horizontal de linha-->
+        <div
+          class="row justify-content-evenly"
+          style="min-height: 250px; border: solid green"
+        >
+          <div class="col-2 dark text-center">Alinhamento Horizontal</div>
+          <div class="col-2 dark text-center">Alinhamento Horizontal</div>
+          <div class="col-2 dark text-center">Alinhamento Horizontal</div>
+        </div>
+        <!--Alinhamento horizontal de linha-->
       </div>
-    </div>
     </section>
   </body>
 </html>
