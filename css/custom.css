@@ -1,0 +1,25 @@
+.topo{
+  padding: 20px 0;
+  background: #fff;
+}
+.img-destaque{
+  max-width: 350px;
+}
+.cor-tema{
+  color: #202a65;
+}
+.quem-somos{
+  background: #202a65;
+  color: #fff;
+}
+.rodape{
+background:#202a65;
+color: #fff;  
+}
+.mobile{
+  text-align:end;
+  font-weight:bold    
+}
+
+.banner{
+  padding-top: 20px;

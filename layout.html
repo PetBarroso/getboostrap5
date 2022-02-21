@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <title>Layout bootstrap</title>
+</head>
+<body>
+    <header class="topo shadow-lg sticky-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/logo.png" alt="logotipo">
+                </div>
+                <div class="col-8">
+                    <nav class="navbar navbar-light d-sm-none justify-content-end">
+                        <div class="container-fluid justify-content-end">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuMobile">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                    </nav>
+                    <div class="d-none d-sm-block">
+                        <nav class="nav justify-content-end">
+                            <a class="nav-link" href="#inicio">Home</a>
+                            <a class="nav-link" href="#quemsou">Quem Sou</a>
+                            <a class="nav-link" href="#cursos">Cursos</a>
+                            <a class="nav-link" href="#clientes">Clientes</a>
+                            <a class="nav-link" href="#contato">Contato</a>
+                            <a class="btn btn-success rounded-pill" href="https://wa.me/5561981105800" target="_blank">(61) 98110-5800</a>
+                        </nav>
+                    </div>
+                    <div class="col-12 mobile">
+                    <div class="col-12 text-end">
+                        <div class="collapse" id="menuMobile">
+                            <nav class="nav flex-column">
+                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" href="#">Quem Sou</a>
+                                <a class="nav-link" href="#">Cursos</a>
+                                <a class="nav-link" href="#">Contato</a>                                
+                                <a class="btn btn-success rounded-pill" href="https://wa.me/5561981105800" target="_blank">Whatsapp</a>
+                            </nav> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="inicio">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 order-2 order-sm-1">
+                    <img src="images/laptop.png" class="img-destaque d-block mx-auto mt-3" alt="notebook"> 
+                </div>
+                <div class="col-12 col-sm-6 order-sm-2 align-self-center banner">
+                    <h1 class="cor-tema">Petterson Barroso</h1>
+                    <p>Graduado em Administração de empresas, com 20 anos de experiência em gestão de pessoas e processos, capaz de desempenhar atividades simultâneas, otimizando o tempo e com qualidade, experiência em planejamento estratégico, com ênfase em gestão de metas e resultados, análise comportamental e desempenho de equipes.
+                      Com perfil analítico, o que me permite visualizar com antecedência o que precisa ser corrigido em tempo real para o cumprimento de etapas e processos, obedecendo sempre o cronograma. Como gestor eu tenho a habilidade de conectar a equipe melhorando os processos, e reduzindo ao máximo, o tempo de execução das atividades demandadas.
+                       </p>
+                    <a href="#" class="btn btn-primary rounded-pill btn-lg">Saiba Mais...</a>
+                </div>
+            </div>
+        </div>
+    <section id="quemsou">
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-6 col-sm-3 text-center">
+                    <img src="images/brain.png" class="d-block mx-auto" alt="brain">
+                    <h4 class="cor-tema mt-3">Serviço 1</h4>
+                    <p>Criação de land pages</p>
+                </div>
+                <div class="col-6 col-sm-3 text-center">
+                    <img src="images/brain.png" class="d-block mx-auto" alt="brain">
+                    <h4 class="cor-tema mt-3">Serviço 2</h4>
+                    <p>Manutenção de sites</p>
+                </div>
+                <div class="col-6 col-sm-3 text-center">
+                   <img src="images/brain.png" class="d-block mx-auto"  alt="brain">
+                   <h4 class="cor-tema mt-3">Serviço 3</h4>
+                   <p>Layout e diagramação<option value=""></option></p>
+                </div>
+                <div class="cor-tema col-6 col-sm-3 text-center">
+                    <img src="images/brain.png" class="d-block mx-auto" alt="brain">
+                    <h4 class="cor-tema mt-3">Serviço 4</h4>
+                    <p>Consultoria Digital</p>
+                </div>
+            </div>
+        </div>
+    </section>
